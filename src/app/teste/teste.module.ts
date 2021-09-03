@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { TesteComponent } from './teste.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
@@ -11,6 +12,7 @@ import { RouterModule } from '@angular/router';
     TesteComponent
   ],
   imports: [
+    BrowserModule,
     CommonModule,
     FormsModule,
     RouterModule,
