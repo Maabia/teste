@@ -25,9 +25,11 @@
         placeholder="00.000.000/0000-00"
         id="enter-cnpj"
         formControlName="cnpj"
+        required
       >
 
       <div class="mt-3 sm:ml-3 sm:mt-0 sm:flex-shrink-0">
+
         <button class="bg-green-500 px-5 py-3 text-white rounded-md
           flex items-center justify-center
           hover:bg-green-600
@@ -35,7 +37,7 @@
           focus:ring-2 focus:ring-offset-2 focus:ring-green-500
           w-full
           "
-        >Enter</button>
+        >Enter</button> <!-- Adiciona o (submit)="cnpj"-->
       </div>
 
       <div class="flex space-x-4">
@@ -52,6 +54,8 @@
             "
             type="text"
             formControlName="valueA"
+            required
+
           >
         </div>
 
@@ -68,6 +72,7 @@
             "
             type="text"
             formControlName="valueB"
+            required
           >
         </div>
 
@@ -79,7 +84,7 @@
             focus:ring-2 focus:ring-offset-2 focus:ring-green-500
             w-full
             "
-          >Calculate Average</button>
+          >Calculate Average</button> <!--Adiciona o (submit)="calcularMedia"-->
         </div>
       </div>
     </form>
