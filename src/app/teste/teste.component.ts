@@ -12,6 +12,7 @@ export class TesteComponent implements OnInit {
 
   testeForm!: FormGroup;
 
+
   constructor(
     private formBuilder: FormBuilder,
     private testeService: TesteService
@@ -43,9 +44,7 @@ export class TesteComponent implements OnInit {
     })
 
 
-
   }
-
 
 
 
