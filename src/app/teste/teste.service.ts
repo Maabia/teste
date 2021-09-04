@@ -14,8 +14,9 @@ export class TesteService {
   constructor(private http: HttpClient) { }
 
   // alterar o nome (retornaCnpj)
-  retornaCnpj() {
+  getCnpj(cnpj: string) {
     // aqui entra o método
+
   }
 
 }
