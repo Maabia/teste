@@ -16,6 +16,7 @@ import { TesteModule } from './teste/teste.module';
     AppRoutingModule,
     TesteModule,
     HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

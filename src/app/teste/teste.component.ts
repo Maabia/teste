@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Teste } from './teste';
 import { TesteService } from './teste.service';
 
 @Component({
@@ -39,9 +40,13 @@ export class TesteComponent implements OnInit {
 
       ]
 
-
     })
+
+
+
   }
+
+
 
 
 }
