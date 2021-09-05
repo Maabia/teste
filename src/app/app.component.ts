@@ -12,6 +12,7 @@ export class AppComponent {
   title = 'Cnpj';
 
   cnpjForm!: FormGroup;
+  cnpjMask: string = '00.000.000/0000-00';
 
   constructor(
     private cnpjService: CnpjService,
@@ -23,7 +24,7 @@ export class AppComponent {
         cnpj: ["",
           [
             Validators.required,
-            Validators.maxLength(18),
+            Validators.maxLength(14),
 
           ]
         ],
